@@ -1,4 +1,4 @@
-# 02 - Intermediate (Rust101 / day1-2026)
+# 02 - Intermediate (Rust101)
 
 This section covers intermediate Rust concepts implemented in the `intermediate/` crate, organized as modules and executed from [intermediate/src/main.rs](cci:7://file:///Users/kumar.rajat/Documents/Repos/l1/Rust101/day1-2026/intermediate/src/main.rs:0:0-0:0).
 
