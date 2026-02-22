@@ -61,3 +61,11 @@ fn handle_file_error() {
     }
 
 }
+
+//The other common ways to handle errors are using ? operator and using if let
+//There is unwrap and expect, while unwrap panics on error expect allows you to provide a custom error message
+
+// let f = File::open("hello.txt").unwrap();
+// 
+// // expect: panics with custom message
+// let f = File::open("hello.txt").expect("Failed to open hello.txt");

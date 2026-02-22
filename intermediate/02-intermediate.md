@@ -87,9 +87,6 @@ Covered:
 - Iterating characters via `.chars()`
 
 ## Error Handling (`error_handling`)
-
-Covered:
-
 - Rust does not use exceptions for normal control flow
 - Core enums used for error handling:
     - `Option<T>`: value may be present/absent
@@ -99,14 +96,8 @@ Covered:
 - File read error handling (beginner-friendly):
     - `fs::read_to_string(path)` returns `Result<String, std::io::Error>`
     - Handling with `match` and printing error
-- Relative path resolution:
-    - `"input.txt"` is resolved relative to the program’s current working directory (`std::env::current_dir()`), often the repo/workspace root when running via Cargo
+
 
 ## What to do next
 
 Suggested next steps after this intermediate milestone:
-
-- Learn `?` operator for propagating `Result` errors cleanly
-- Return `Result` from functions instead of printing everywhere
-- Introduce custom error types (start simple: `Result<T, String>`, then `Box<dyn std::error::Error>`)
-- Practice more `match` expressions that return values (not just printing)
