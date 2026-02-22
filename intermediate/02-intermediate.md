@@ -97,6 +97,15 @@ Covered:
     - `fs::read_to_string(path)` returns `Result<String, std::io::Error>`
     - Handling with `match` and printing error
 
+## Generics & Traits (`generics_traits`)
+- Generics are a way to write code that can work with different types.
+- Traits are a contract or interface.
+- Traits define behaviour, it can be used to define common behaviour for different types.
+- Generics and traits are used together to define WHAT and WHY. 
+- Most common traits i.e `copy, clone, debug, display, partial_eq, eq, partial_ord, ord, hash`.
+- Derive is used to implement these traits automatically by compiler.
+- Prelude is a feature of rust used to avoid namespace clutter.
+
 
 ## What to do next
 
