@@ -1,7 +1,9 @@
 mod ref_borrow;
-mod learn_structs;
-mod learn_enum;
+mod structs;
+mod enums;
 mod collections;
+mod error_handling;
+mod generics_traits;
 
 fn main() {
     println!("$$$$$$$$$$  Welcome to Intermediate Rust Learning  $$$$$$$$$$$");
@@ -10,9 +12,13 @@ fn main() {
     println!("As stated above this topic is a separate module ref_borrow");
     ref_borrow::demo();
     println!("****************  Structs & Impl ****************************");
-    learn_structs::demo();
+    structs::demo();
     println!("****************  Enums  ****************************");
-    learn_enum::demo();
+    enums::demo();
     println!("****************  Collections  **********************");
     collections::demo();
+    println!("****************  Error Handling  *******************");
+    error_handling::demo();
+    println!("*****************  Generics & Traits  ***************");
+    generics_traits::demo();
 }
