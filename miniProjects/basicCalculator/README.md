@@ -20,7 +20,7 @@ The Basic Calculator CLI - is a simple interactive calculator that performs arit
 - cargo tarpaulin -p basicCalculator (check coverage)
 
 ## Project Structure
-basicCalculator/
+```basicCalculator/
 ├── src/
 │   ├── main.rs
 │   ├── calculator.rs
@@ -29,3 +29,4 @@ basicCalculator/
 │   └── test_calculator.rs
 ├── Cargo.toml
 └── README.md
+```
